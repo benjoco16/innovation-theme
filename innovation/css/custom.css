@@ -1,0 +1,317 @@
+/** CUSTOM CSS **/
+@import 'fonts.css';
+
+/* DEFAULT HEADER */
+#masthead {
+	background-image: url(../img/page-head.png);
+	background-repeat:  no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 27px 0;
+}
+.site-branding {
+	float: left;
+	max-width: 163px;
+
+}
+h1.page-title, .widget_recent_entries, .widget_archive {
+	color: #fff;
+}
+nav#site-navigation {
+	float: right;
+	width: 80%;
+	clear: none;
+	font-family: 'Conv_SourceCodePro-Bold';
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 50px 0;
+}
+.main-navigation ul#primary-menu {
+	float: right;
+}
+nav#site-navigation li {
+	padding-left: 26px;
+
+}
+
+nav#site-navigation li:first-child {
+	padding-left: 0;
+}
+nav#site-navigation li a {
+	color: #dadadb;
+	text-decoration: none;
+	    border-top: 2px solid transparent;
+}
+nav#site-navigation li a:hover, .current-menu-item a, .page_item a {
+	color: #fff;
+	border-top: 2px solid #f7ca36 !important;
+}
+.menu-toggle, .main-navigation.toggled ul {
+	float: right;
+}
+
+/** HOME HEADER **/
+#masthead-home {
+	background-image: url(../img/home-head.png);
+	background-repeat:  no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 27px 27px;
+}
+.huge-it-dot-wrap {
+	top: auto !important;
+	bottom: 5px;
+}
+.huge-it-dot-wrap a {
+	background: #eaeaeb !important;
+} 
+.huge-it-dot-wrap a.active {
+	background: #fff !important;
+}
+.huge-it-arrows {
+	display: none;
+}
+section#home-hldr {
+	width: 100%;
+}
+.home-banner-left {
+	padding: 225px 25px;
+	text-align: left;
+}
+.slider-hldr {
+	float: right;
+	margin-right: 15px;
+}
+.share_buttons_1  {
+	display: none;
+}
+.huge-it-wrap {
+	-webkit-box-shadow: 0px 0px 11px 1px rgba(107,107,107,1);
+-moz-box-shadow: 0px 0px 11px 1px rgba(107,107,107,1);
+box-shadow: 0px 0px 11px 1px rgba(107,107,107,1);
+}
+.home-banner-left h1 {
+	font-family: 'Conv_SourceCodePro-Bold';
+	color: #fff;
+	font-size: 40px;
+}
+.home-banner-left h1 strong {
+	color: #f7ca36;
+}
+.home-banner-left p {
+	color: #dedede;
+	font-size: 18px;
+	margin-bottom: 60px;
+}
+.home-banner-left a {
+	font-family: 'agencyfbbold';
+	font-size: 30px;
+	color: #fffdf5;
+	text-transform: uppercase;
+	background: #f7ca36;
+	border: 2px solid #c09911;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 14px 39px;
+	background: #ec1c23;
+	border: 2px solid #b11a1f;
+}
+.home-banner-left a:hover {
+	text-decoration: none;
+	background: #ec1c23;
+	
+	border: 2px solid #b11a1f;
+	background: #f7ca36;
+	border: 2px solid #c09911;
+	
+}
+
+.hsecond-layer {
+	text-transform: uppercase;
+	border-bottom: 2px solid ;
+	text-transform: uppercase;
+	 border-width: 70%;
+}
+.hsecond-layer-left-desc {
+	color: #6f6b63;
+	font-size: 18px;
+    line-height: 25px;
+    margin-top: 25px;
+    max-width: 80%;
+}
+
+.second-phone-holder {
+
+}
+
+.third-row-home {
+    max-width: 1140px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+.third-image-home img {
+	border: 2px solid #c2a647;
+}
+.third-description {
+	color: #fff;
+	font-size: 17px;
+}
+.third-description h2 {
+	font-family: 'agencyfbbold';
+	color: #cbae4a;
+	font-size: 47px;
+}
+
+/** FOOTER WIDGET HOLDER **/
+#footer-widget-holder {
+	padding: 55px 0;
+	border-top: 3px solid #000000;
+	background: #1c1b1a;
+	color: #bfbfbf;
+}
+footer.site-footer {
+	background: #1c1b1a;
+	color: #fff;
+	text-align: center;
+	padding: 40px 0;
+	border-top: white 1px solid;
+}
+h2.widget-title {
+	font-family: 'agencyfbbold';
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/** HOW IT WORKS **/
+.border-line {
+	width: 98%;
+	border: 1px solid #dadada;
+	margin: 20px auto;
+	text-align: center;
+}
+header.entry-header {
+	text-transform: uppercase;
+	font-family: 'agencyfbbold';
+	font-size: 40px;
+	color: #fff;
+}
+header.entry-header strong {
+	color: #f7ca36;
+}
+#page-hldr .entry-content p {
+	color: #fff;
+}
+.how-it-works-gallery .wpb_image_grid .wpb_image_grid_ul .isotope-item {
+	margin-right: 20px;
+	border: 2px solid white;
+}
+
+
+/** CONTACT **/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+input[type="submit"],
+textarea {
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 0;
+	-o-border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-main-border-radius: 0;
+	color: #fff;
+}
+input[type="submit"] {
+	padding: 10px 30px;
+}
+div.wpcf7-validation-errors {
+	color: #fff;
+}
+
+/** WOOCOMMERCE**/
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, 
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2,
+.woocommerce table.shop_table
+ {
+	max-width: 100%;
+	color: #fff;
+}
+.woocommerce-cart-form {
+	border: 1px solid white;
+}
+#content {
+	color: #fff;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+	color: #000;
+}
+ul.wc_payment_methods label {
+	width: auto;
+}
+.woocommerce-product-gallery__image {
+	margin-bottom: 6px;
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {
+	vertical-align: top;
+    margin-left: 0px;
+    border: 3px solid #e8e8e8;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+	width: 100%;
+	background: #ec1c23;
+	font-size: 30px;
+	text-transform: uppercase;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+.woocommerce div.product form.cart .button {
+    width: 60%;
+    padding: 14px 0;
+}
+.woocommerce .quantity .qty {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+}
+.woocommerce-Price-amount {
+	    font-family: 'agencyfbbold';
+    font-size: 46px;
+    color: #d3d2d4;
+    text-decoration: underline;
+}
+.woocommerce div.product .product_title {
+	font-family: 'agencyfbbold';
+	text-transform: uppercase;
+}
+.woocommerce div.product .product_title strong {
+	color: #f7ca36;
+}
+.home-video-holder .wp-video > #mep_0 {
+	    border: 8px solid #dedede;
+}
+.woocommerce table.shop_table {
+	border: 1px solid white;
+}

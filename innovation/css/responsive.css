@@ -1,0 +1,27 @@
+/* responsive */
+@media (max-width: 767px) {
+       /* Smaller Resolution Desktops and Laptops */
+       .home-banner-left {
+		    padding: 23px 25px 65px 25px;
+		}
+		.slider-hldr {
+			float: none;
+		}
+		#primary-menu{
+			width: 100%;
+			position: absolute;
+			top: 190px;
+			left: 0;
+			background: #ec1c23;
+			padding: 30px 0;
+			z-index: 2;
+		}
+		.main-navigation li {
+			float: none;
+		}
+		nav#site-navigation li a:hover, .current-menu-item a, .page_item a {
+			border: none !important;
+			color: #f7ca36 !important;
+		}
+
+}

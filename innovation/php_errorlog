@@ -1,0 +1,4 @@
+[27-Aug-2017 11:30:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/v168inno/public_html/wp-content/themes/innovation/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/v168inno/public_html/wp-content/themes/innovation/index.php on line 15
